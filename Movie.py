@@ -5,7 +5,7 @@ class Movie():
 	""" The class will be used to create instances of Movie object """
 
         def __init__(self, title, poster_image_url, trailer_youtube_url):
-                """ Predefined function to set the instance variables of Movie Class """
+                """ initializing instance variables of Movie Class """
             self.title = title
             self.poster_image_url = poster_image_url
             self.trailer_youtube_url = trailer_youtube_url
